@@ -1,0 +1,22 @@
+---
+
+- name: Install and configure local mac
+  hosts: localhost
+  connection: local
+
+  pre_tasks:
+
+    - name: Fail if the system isn't a mac
+      ansible.builtin.fail:
+        msg: This playbook is only compatible with MacOSX
+      when: ansible_distribution != "MacOSX"
+
+  tasks:
+
+    - name: Include the ssh task
+      ansible.builtin.include_tasks: "tasks/ssh.yml"
+
+    - name: Include git task
+      ansible.builtin.include_tasks: "tasks/git.yml"
+
+# EOF

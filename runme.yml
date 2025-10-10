@@ -12,5 +12,8 @@
       when: ansible_distribution != "MacOSX"
 
   roles:
+    - base
     - git
     - ssh
+    - homebrew
+    - nvim

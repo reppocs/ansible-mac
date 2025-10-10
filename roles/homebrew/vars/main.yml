@@ -10,7 +10,6 @@ homebrew_packages:
   - nmap
   - packer
   - python3
-  - rio-terminal
   - shellcheck
   - starship
   - terraform
@@ -20,5 +19,7 @@ homebrew_packages:
 
 homebrew_cask_apps:
   - iterm2
+  - rio
   - spotify
   - visual-studio-code
+  - zed

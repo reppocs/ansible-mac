@@ -1,0 +1,19 @@
+homebrew_packages:
+  - ansible
+  - btop
+  - git
+  - htop
+  - jq
+  - lazygit
+  - neovim
+  - nmap
+  - python3
+  - rio-terminal
+  - tmux
+  - tree
+  - wget
+
+homebrew_cask_apps:
+  - iterm2
+  - spotify
+  - visual-studio-code

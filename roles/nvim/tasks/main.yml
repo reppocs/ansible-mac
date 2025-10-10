@@ -1,0 +1,5 @@
+- name: Copy neovim config
+  ansible.posix.synchronize:
+    src: "nvim"
+    dest: "{{ ansible_user_dir }}/.config"
+    mode: '0755'

@@ -1,0 +1,5 @@
+- name: Copy zsh config
+  ansible.builtin.copy:
+    src: "zshrc"
+    dest: "{{ ansible_user_dir }}/.zshrc"
+    mode: '0644'

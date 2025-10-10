@@ -11,6 +11,8 @@ homebrew_packages:
   - packer
   - python3
   - rio-terminal
+  - shellcheck
+  - starship
   - terraform
   - tmux
   - tree

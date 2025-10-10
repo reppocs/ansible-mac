@@ -1,14 +1,17 @@
 homebrew_packages:
   - ansible
   - btop
+  - fastfetch
   - git
   - htop
   - jq
   - lazygit
   - neovim
   - nmap
+  - packer
   - python3
   - rio-terminal
+  - terraform
   - tmux
   - tree
   - wget
